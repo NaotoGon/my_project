@@ -19,6 +19,7 @@ class LineBotController extends Controller
         return view('linebot.index');
     }
 
+    
     public function restaurants(Request $request)
     {
         Log::debug($request->header());
